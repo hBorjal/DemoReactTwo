@@ -1,0 +1,10 @@
+---
+name: Demo-ReactAppTwo
+path: build/
+memory: 64M
+instances: 1
+disk_quota: 1024M
+buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
+env:
+  FORCE_HTTPS: false
+  CLOUD_CONNECTOR_VIRTUAL_HOST: "http://appsdev.cotemar.com.mx:443"
